@@ -50,5 +50,5 @@ A Java-based console application simulating an online banking system. This proje
     String password = "your_password";
 4. Compile and run the application:
    ```bash
-    javac -cp .:mysql-connector-java-8.0.XX.jar com/jeeva/onlinebankingsystem/App.java
-    java -cp .:mysql-connector-java-8.0.XX.jar com.jeeva.onlinebankingsystem.App
+    javac -cp .:mysql-connector-java-8.0.XX.jar com/username/onlinebankingsystem/App.java
+    java -cp .:mysql-connector-java-8.0.XX.jar com.username.onlinebankingsystem.App
