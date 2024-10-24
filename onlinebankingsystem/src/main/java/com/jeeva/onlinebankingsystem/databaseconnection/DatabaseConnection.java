@@ -12,7 +12,7 @@ public class DatabaseConnection {
 		
 		String url = "jdbc:mysql://localhost:3306/bankingsystem";
 		try {
-			conn = DriverManager.getConnection(url,"root","james@5,7373");
+			conn = DriverManager.getConnection(url,"root","your password");
 		} catch (Exception e) {
 			e.printStackTrace();
 			System.out.println("Exception occured while connecting to database");
